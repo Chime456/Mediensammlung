@@ -1,17 +1,50 @@
 body {
     font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 20px;
+    background: rgb(236, 224, 211);
 }
 
 header {
+    text-align: center;
+    color: rgba(92, 83, 82, 0.89);
+    font-size: 42px;
 
+}
+
+p{
+    color: rgba(129, 117, 109, 0.89);
+}
+
+h3{
+    color: rgba(92, 83, 82, 0.89);
+}
+
+a:link {
+    color: transparent;
+}
+
+.year-range{
+    padding-left: 65px;
 }
 
 .movie-cover {
-    width: 300px;
-    height: 500px;
+    width: 250px;
+    height: 370px;
+    border-radius: 10px;
+    border: 3px solid rgba(143, 128, 127, 0.89);
+    transition: width 1s, height 1s
 }
 
-.movie-container {
+.movie-cover:hover {
+    width: 290px;
+    height: 410px;
+}
+
+.movie-flexbox {
     display: flex;
     flex-direction: row;
+    gap: 20px;
+    flex-wrap: wrap;
+    justify-content: center;
 }
