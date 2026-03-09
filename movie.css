@@ -5,7 +5,7 @@ body {
     background: rgb(236, 224, 211);
 }
 
-header {
+.page-title {
     text-align: center;
     color: rgba(92, 83, 82, 0.89);
     font-size: 42px;
